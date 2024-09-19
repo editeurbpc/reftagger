@@ -1,0 +1,60 @@
+.popover  {
+    border : 1px solid var( --global-theme-color-shade );
+    z-index : 10000;
+    background-color : var( --main-bg-color );
+    color : var( --main-text-color );
+}
+
+.popover .popover-body {
+    color : var( --main-text-color ) !important;
+}
+
+
+.popover .popover-body sup {
+    color : var( --global-theme-color ) !important;
+    padding-right : 5px;
+}
+
+.popover .popover-header {
+    background-color : var( --global-theme-color-shade );
+    border-radius : 0 !important;
+}
+
+.bs-popover-top>.popover-arrow::before {
+    bottom: 0;
+    border-top-color: #f7c9b9 !important;
+    background-color : var( --main-bg-color );
+}
+
+.bs-popover-top>.popover-arrow::after {
+    bottom: 1px;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: var( --main-bg-color );
+}
+
+.bs-popover-end>.popover-arrow::before {
+    left: 0;
+    border-right-color: #f7c9b9 !important;
+}
+
+.bs-popover-end>.popover-arrow::after {
+    left: 1px;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: var( --main-bg-color);*/
+}
+
+.bs-popover-bottom>.popover-arrow::before {
+    top: 0;
+    border-bottom-color: #f7c9b9 !important;
+}
+
+.bs-popover-bottom>.popover-arrow::after {
+    top: 1px;
+    border-width: 0 0.5rem 0.5rem;
+    border-bottom-color: var( --main-bg-color );
+}
+
+.bs-popover-start>.popover-arrow::before {
+    right: 0;
+    border-left-color: #f7c9b9 !important;
+}
